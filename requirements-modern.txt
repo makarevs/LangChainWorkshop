@@ -1,0 +1,29 @@
+# Modern LangChain stack (2024-2026)
+# Use this instead of requirements.txt for the workshop
+# Install: pip install -r requirements-modern.txt
+
+# Core LangChain
+langchain>=0.3.0
+langchain-openai>=0.2.0        # ChatOpenAI, OpenAIEmbeddings
+langchain-community>=0.3.0     # Wikipedia tool, HuggingFace, etc.
+langchain-huggingface>=0.1.0   # HuggingFaceEndpoint
+
+# OpenAI SDK (used under the hood by langchain-openai)
+openai>=1.50.0
+
+# Environment & config
+python-dotenv>=1.0.0
+
+# Tools used in Part 3
+wikipedia>=1.4.0
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+google-api-python-client>=2.109.0
+
+# HuggingFace
+huggingface_hub>=0.24.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.29.0
+notebook>=7.0.0

@@ -1,0 +1,6 @@
+{
+    "airun.settings": {
+        "workspaceId": "bf953771-d377-4f76-9e0f-f9787a9ba9a5"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

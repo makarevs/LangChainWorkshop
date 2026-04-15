@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where python:*)",
+      "Bash(C:\\\\Users\\\\Sergey_Makarevich\\\\micromamba\\\\envs\\\\langchain-workshop\\\\python.exe -c \"import langchain.agents as a; print\\([x for x in dir\\(a\\) if 'agent' in x.lower\\(\\) or 'react' in x.lower\\(\\) or 'executor' in x.lower\\(\\)]\\)\")"
+    ]
+  }
+}
